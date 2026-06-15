@@ -1,0 +1,38 @@
+{
+  "name": "penguin-dash",
+  "productName": "Penguin Dash",
+  "version": "0.1.0",
+  "description": "Retro penguin arcade prototype.",
+  "author": "Jacob",
+  "license": "MIT",
+
+  "main": "electron/main.js",
+
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12"
+  },
+
+  "build": {
+    "appId": "com.tropicalexpress.penguindash",
+
+    "files": [
+      "index.html",
+      "css/**/*",
+      "engine/**/*",
+      "assets/**/*",
+      "electron/**/*"
+    ],
+
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  }
+}

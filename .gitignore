@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode/
+jacob/
+*.tar.xz
+*.zip
+*.SHA256
+jacob/
+*.gemspec
+
