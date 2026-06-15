@@ -7,4 +7,5 @@ jacob/
 *.SHA256
 jacob/
 *.gemspec
+*.env
 
